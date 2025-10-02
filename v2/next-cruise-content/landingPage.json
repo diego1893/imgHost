@@ -91,8 +91,8 @@
       "title": "Choose when to book",
       "rows": [
         {
-          "id": "1",
-          "type": "book-card-bookNow",
+          "id": "book-card-bookNow",
+          "type": "card",
           "rows": [
             {
               "id": "book-subtitle-bookNow",
