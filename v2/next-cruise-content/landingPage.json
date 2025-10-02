@@ -120,7 +120,7 @@
           ]
         },
         {
-          "id": "book-card-bookNow",
+          "id": "book-card-bookLater",
           "type": "card",
           "rows": [
             {
