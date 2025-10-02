@@ -1,0 +1,183 @@
+{
+  "banner": {
+    "imageUrl": "https://cdn.example.com/offer.jpg",
+    "header": "Up to $500 NextCruise savings",
+    "subheader": "Book now or book later – the choice is yours!"
+  },
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "rows": [
+        {
+          "id": "overview-description-generalInfo",
+          "type": "description",
+          "description": "Already dreaming about your next adventure with us? Book your next getaway with NextCruise and enjoy exclusive savings of up to $500, including a $200 bonus on select sailings."
+        }
+      ]
+    },
+    {
+      "id": "offerHighlights",
+      "title": "Offer highlights",
+      "rows": [
+        {
+          "id": "offerHighlights-bullet-savings",
+          "type": "bullet",
+          "icon": "sailboat.fill",
+          "description": "Up to $200 bonus on select sailings"
+        },
+        {
+          "id": "offerHighlights-bullet-promotions",
+          "type": "bullet",
+          "icon": "dollarsign.circle.fill",
+          "description": "Can be combined with other promotions"
+        },
+        {
+          "id": "offerHighlights-collapsible-details",
+          "type": "collapsible",
+          "collapsedTitle": "View offer details",
+          "expandedTitle": "Hide offer details",
+          "rows": [
+            {
+              "id": "offerHighlights-subtitle-savings",
+              "type": "subtitle",
+              "subtitle": "NextCruise savings per stateroom"
+            },
+            {
+              "id": "offerHighlights-table-savings",
+              "type": "table",
+              "rows": [
+                {
+                  "id": "table-header",
+                  "title": "Stateroom",
+                  "columns": [
+                    "3–5 nights",
+                    "6+ nights"
+                  ],
+                  "isHeader": true
+                },
+                {
+                  "id": "table-row-1",
+                  "title": "Interior & Ocean",
+                  "columns": [
+                    "$25",
+                    "$50"
+                  ]
+                },
+                {
+                  "id": "table-row-2",
+                  "title": "Balcony",
+                  "columns": [
+                    "$50",
+                    "$100"
+                  ]
+                },
+                {
+                  "id": "table-row-3",
+                  "title": "All suites",
+                  "columns": [
+                    "$150",
+                    "$300"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "book",
+      "title": "Choose when to book",
+      "rows": [
+        {
+          "id": "1",
+          "type": "book-card-bookNow",
+          "rows": [
+            {
+              "id": "book-subtitle-bookNow",
+              "type": "subtitle",
+              "subtitle": "Book now"
+            },
+            {
+              "id": "book-bullet-bookNowDeposit",
+              "type": "bullet",
+              "icon": "checkmark",
+              "description": "$100 per person deposit"
+            },
+            {
+              "id": "book-bullet-bookNowSelection",
+              "type": "bullet",
+              "icon": "checkmark",
+              "description": "Select ship and sail date today"
+            },
+            {
+              "id": "book-button-bookNow",
+              "type": "button",
+              "text": "Book now",
+              "action": "bookNow"
+            }
+          ]
+        },
+        {
+          "id": "book-card-bookNow",
+          "type": "card",
+          "rows": [
+            {
+              "id": "book-subtitle-bookLater",
+              "type": "subtitle",
+              "subtitle": "Book later"
+            },
+            {
+              "id": "book-bullet-bookLaterDeposit",
+              "type": "bullet",
+              "icon": "checkmark",
+              "description": "$200 per person deposit"
+            },
+            {
+              "id": "book-bullet-bookLaterSelection",
+              "type": "bullet",
+              "icon": "checkmark",
+              "description": "Select ship and sail date within 6 months, or save up to $500 if you select within 2 months"
+            },
+            {
+              "id": "book-button-bookLater",
+              "type": "button",
+              "text": "Pay deposit & book later",
+              "action": "bookLater"
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "id": "book-checkbox-travelPartner",
+          "isChecked": true,
+          "text": "By default, NextCruise bookings are credited to the same travel partner as your current reservation. If you don’t want this booking credited to them, check this box."
+        }
+      ]
+    },
+    {
+      "id": "questions",
+      "title": "Questions?",
+      "rows": [
+        {
+          "id": "questions-link-faqs",
+          "type": "link",
+          "text": "Check our FAQs",
+          "action": "openFAQ"
+        },
+        {
+          "id": "questions-link-pdp",
+          "type": "link",
+          "text": "Visit the NextCruise office onboard",
+          "action": {
+            "openPDP": {
+              "productId": "IC84",
+              "isVenue": false
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
