@@ -172,8 +172,8 @@
           "text": "Visit the NextCruise office onboard",
           "action": {
             "openPDP": {
-              "productId": "NXCR",
-              "isVenue": true
+              "productId": "Y784",
+              "isVenue": false
             }
           }
         }
