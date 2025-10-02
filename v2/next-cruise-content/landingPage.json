@@ -151,7 +151,7 @@
         {
           "type": "checkbox",
           "id": "book-checkbox-travelPartner",
-          "isChecked": true,
+          "isChecked": false,
           "text": "By default, NextCruise bookings are credited to the same travel partner as your current reservation. If you don’t want this booking credited to them, check this box."
         }
       ]
