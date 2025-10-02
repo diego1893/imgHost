@@ -172,7 +172,7 @@
           "text": "Visit the NextCruise office onboard",
           "action": {
             "openPDP": {
-              "productId": "IC84",
+              "productId": "Y784",
               "isVenue": false
             }
           }
